@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="Images/Icon.png">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+
+<div id="barraPrincipal">
+  <a href="index.html">Home</a>
+  <a href="login.html">Login</a>
+  <a class="active" href="#home">Cart</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+<!--escolha de roupa -->
+<div class="product-container">
+    <div class="product-row">
+      <div class="product-img-container">
+        <img text-align="left" class="product-img" src="tw roupa/flor_h_b.jpeg" alt="product image">
+      </div>
+      <div class="product-details">
+        <h2 class="product-name">Product 1</h2>
+        <label>Tamanho:</label><p class="product-tamanho"><select name="tamanho" id="tamanho">
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+          </select></p>
+        
+        <p class="product-price">Price: $20</p>
+        <label>Tecido</label>
+        <p class="product-tecido"><select name="size" id="tecido">
+            <option value="Lã">Lã</option>
+            <option value="Algodão">Algodão</option>
+            <option value="Seda">Seda</option>
+            <option value="Malha">Malha</option>
+          </select></p>
+         <a href="carrinho.html">Add to cart</a >
+      </div>
+    </div>
+  </div>  
+  
+  <script src="script.js"></script>
+  <footer>
+    <p>Copyright © 2023 MAD Store</p>
+  </footer>

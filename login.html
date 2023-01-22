@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" type="image/x-icon" href="Images/Icon.png">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div id="barraPrincipal">
+    <a href="index.html">Home</a>
+    <a class="active" href="login.html">Login</a>
+    <a href="pagina de peça.html">Cart</a>
+  
+    <div class="search-container">
+      <form action="/action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  
+    <div class="countdown" id="countdown"></div>
+    <div class="countdown1" id="countdown1"></div>
+  </div>  
+  
+<br></br>
+<br></br>
+<form action="pagina_utilizador.html" method="post">
+  <div class="login">
+    <label for="uname"><b>Utilizador</b></label><br>
+    <input type="text" placeholder="Utilizador" name="uname" id='username' required><br>
+
+    <label for="psw"><b>Palavra-Passe</b></label><br>
+    <input type="password" placeholder="Palavra-Passe" name="pw" id="pw" required><br>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    <a href="criar_conta.html">Criar conta</a></span>
+  </div>
+  <div class="login button">
+    <button type="submit" href="index.html">Login</button>
+  </div>
+</form>
+
+<footer>
+  <p>Copyright © 2023 MAD Store</p>
+</footer>
+</html>
